@@ -1,4 +1,4 @@
-package nobodyknowsdotcom.currencyconverterfeign;
+package nobodyknowsdotcom.currencyconverterfeign.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
