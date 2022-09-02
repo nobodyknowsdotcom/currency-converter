@@ -1,5 +1,4 @@
-# feign-forex-service
----------------
+# currency-converter
 # Usage:
 ```http://localhost:8100/currency-converter/from/RUB/to/USD/quantity/100```
 ---------------
@@ -8,8 +7,7 @@
 ---------------
 # Project stack:
 * Java 11, Spring Boot
-* Feign (to interact with [forex-service](https://github.com/nobodyknowsdotcom/forex-service))
+* Spring Cloud LoadBalancer
 * Spring Web
-* Lombok
 --------------
-## Note: for this application to work, you need to up [this application](https://github.com/nobodyknowsdotcom/forex-service) on the same machine.
+## Note: run [this application](https://github.com/nobodyknowsdotcom/forex-service) on 8000, 8001 and 8002 ports for correct work of currency-converter.
