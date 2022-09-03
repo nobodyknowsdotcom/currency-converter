@@ -8,6 +8,7 @@
 # Project stack:
 * Java 11, Spring Boot
 * Spring Cloud LoadBalancer
+* Eureka Client
 * Spring Web
 --------------
-## Note: run [this application](https://github.com/nobodyknowsdotcom/forex-service) on 8000, 8001 and 8002 ports for correct work of currency-converter.
+## Note: you need to run at least one instance of the [forex-service](https://github.com/nobodyknowsdotcom/forex-service).
